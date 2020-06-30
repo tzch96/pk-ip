@@ -1,0 +1,126 @@
+Activity mcIgnorable=sap sap2010 xClass=get_PDF_fields mvaVisualBasic.Settings={xNull} sapVirtualizedContainerService.HintSize=2563,1129 sap2010WorkflowViewState.IdRef=get_PDF_fields_1 xmlns=httpschemas.microsoft.comnetfx2009xamlactivities xmlnsmc=httpschemas.openxmlformats.orgmarkup-compatibility2006 xmlnsmva=clr-namespaceMicrosoft.VisualBasic.Activities;assembly=System.Activities xmlnssap=httpschemas.microsoft.comnetfx2009xamlactivitiespresentation xmlnssap2010=httpschemas.microsoft.comnetfx2010xamlactivitiespresentation xmlnsscg=clr-namespaceSystem.Collections.Generic;assembly=mscorlib xmlnssco=clr-namespaceSystem.Collections.ObjectModel;assembly=mscorlib xmlnsui=httpschemas.uipath.comworkflowactivities xmlnsx=httpschemas.microsoft.comwinfx2006xaml
+  TextExpression.NamespacesForImplementation
+    scoCollection xTypeArguments=xString
+      xStringSystem.ActivitiesxString
+      xStringSystem.Activities.StatementsxString
+      xStringSystem.Activities.ExpressionsxString
+      xStringSystem.Activities.ValidationxString
+      xStringSystem.Activities.XamlIntegrationxString
+      xStringMicrosoft.VisualBasicxString
+      xStringMicrosoft.VisualBasic.ActivitiesxString
+      xStringSystemxString
+      xStringSystem.CollectionsxString
+      xStringSystem.Collections.GenericxString
+      xStringSystem.DataxString
+      xStringSystem.DiagnosticsxString
+      xStringSystem.DrawingxString
+      xStringSystem.IOxString
+      xStringSystem.LinqxString
+      xStringSystem.Net.MailxString
+      xStringSystem.XmlxString
+      xStringSystem.Xml.LinqxString
+      xStringUiPath.CorexString
+      xStringSystem.Windows.MarkupxString
+      xStringUiPath.Core.ActivitiesxString
+    scoCollection
+  TextExpression.NamespacesForImplementation
+  TextExpression.ReferencesForImplementation
+    scoCollection xTypeArguments=AssemblyReference
+      AssemblyReferenceSystem.ActivitiesAssemblyReference
+      AssemblyReferenceMicrosoft.VisualBasicAssemblyReference
+      AssemblyReferencemscorlibAssemblyReference
+      AssemblyReferenceSystem.DataAssemblyReference
+      AssemblyReferenceSystemAssemblyReference
+      AssemblyReferenceSystem.DrawingAssemblyReference
+      AssemblyReferenceSystem.CoreAssemblyReference
+      AssemblyReferenceSystem.XmlAssemblyReference
+      AssemblyReferenceSystem.Xml.LinqAssemblyReference
+      AssemblyReferencePresentationFrameworkAssemblyReference
+      AssemblyReferenceWindowsBaseAssemblyReference
+      AssemblyReferencePresentationCoreAssemblyReference
+      AssemblyReferenceSystem.XamlAssemblyReference
+      AssemblyReferenceUiPath.Excel.ActivitiesAssemblyReference
+      AssemblyReferenceSystem.ComponentModel.CompositionAssemblyReference
+      AssemblyReferenceSystem.ServiceModelAssemblyReference
+      AssemblyReferenceUiPath.UiAutomation.ActivitiesAssemblyReference
+      AssemblyReferenceUiPath.System.ActivitiesAssemblyReference
+    scoCollection
+  TextExpression.ReferencesForImplementation
+  Sequence sapVirtualizedContainerService.HintSize=884,964 sap2010WorkflowViewState.IdRef=Sequence_1
+    sapWorkflowViewStateService.ViewState
+      scgDictionary xTypeArguments=xString, xObject
+        xBoolean xKey=IsExpandedTruexBoolean
+      scgDictionary
+    sapWorkflowViewStateService.ViewState
+    uiWindowScope ApplicationWindow={xNull} SearchScope={xNull} TimeoutMS={xNull} Window={xNull} sapVirtualizedContainerService.HintSize=842,872 sap2010WorkflowViewState.IdRef=WindowScope_1 InformativeScreenshot=5180a91a59aad510226e1e8b72ee49bb Selector=&lt;wnd app='acrord32.exe' cls='AcrobatSDIWindow' title='Perfect Match.pdf - Adobe Acrobat Reader DC' &gt;
+      uiWindowScope.Body
+        ActivityAction xTypeArguments=xObject
+          ActivityAction.Argument
+            DelegateInArgument xTypeArguments=xObject Name=ContextTarget 
+          ActivityAction.Argument
+          Sequence sapVirtualizedContainerService.HintSize=808,726 sap2010WorkflowViewState.IdRef=Sequence_4
+            Sequence.Variables
+              Variable xTypeArguments=uiGenericValue Name=dateVal 
+              Variable xTypeArguments=uiGenericValue Name=bill 
+            Sequence.Variables
+            sapWorkflowViewStateService.ViewState
+              scgDictionary xTypeArguments=xString, xObject
+                xBoolean xKey=IsExpandedTruexBoolean
+              scgDictionary
+            sapWorkflowViewStateService.ViewState
+            uiAnchorBase AnchorPosition=Left sapVirtualizedContainerService.HintSize=766,198 sap2010WorkflowViewState.IdRef=AnchorBase_2
+              uiAnchorBase.Action
+                ActivityAction xTypeArguments=uiAnchor
+                  ActivityAction.Argument
+                    DelegateInArgument xTypeArguments=uiAnchor Name=ContextAnchor 
+                  ActivityAction.Argument
+                  uiGetValue ContinueOnError={xNull} sapVirtualizedContainerService.HintSize=334,106 sap2010WorkflowViewState.IdRef=GetValue_2
+                    uiGetValue.Target
+                      uiTarget ClippingRegion={xNull} Element={xNull} TimeoutMS={xNull} InformativeScreenshot=49fa44ad428d97eebd48bfd90c2eed76 Selector=&lt;ctrl role='text' &gt; WaitForReady=INTERACTIVE 
+                    uiGetValue.Target
+                    uiGetValue.Value
+                      OutArgument xTypeArguments=uiGenericValue[dateVal]OutArgument
+                    uiGetValue.Value
+                  uiGetValue
+                ActivityAction
+              uiAnchorBase.Action
+              uiAnchorBase.AnchorProvider
+                uiWaitUiElementAppear FoundElement={xNull} sapVirtualizedContainerService.HintSize=334,106 sap2010WorkflowViewState.IdRef=WaitUiElementAppear_2 WaitActive=False WaitVisible=False
+                  uiWaitUiElementAppear.Target
+                    uiTarget ClippingRegion={xNull} Element={xNull} TimeoutMS={xNull} InformativeScreenshot=4b95849d3554e2f37fc998df997c460c Selector=&lt;wnd cls='AVL_AVView' title='AVPageView' &gt;&lt;ctrl name='DATE' role='text' &gt; WaitForReady=INTERACTIVE 
+                  uiWaitUiElementAppear.Target
+                uiWaitUiElementAppear
+              uiAnchorBase.AnchorProvider
+            uiAnchorBase
+            uiMessageBox Caption={xNull} ChosenButton={xNull} Buttons=Ok sapVirtualizedContainerService.HintSize=766,59 sap2010WorkflowViewState.IdRef=MessageBox_2 Text=[dateVal] TopMost=True 
+            uiAnchorBase AnchorPosition=Auto sapVirtualizedContainerService.HintSize=766,198 sap2010WorkflowViewState.IdRef=AnchorBase_3
+              uiAnchorBase.Action
+                ActivityAction xTypeArguments=uiAnchor
+                  ActivityAction.Argument
+                    DelegateInArgument xTypeArguments=uiAnchor Name=ContextAnchor 
+                  ActivityAction.Argument
+                  uiGetValue ContinueOnError={xNull} sapVirtualizedContainerService.HintSize=334,106 sap2010WorkflowViewState.IdRef=GetValue_3
+                    uiGetValue.Target
+                      uiTarget ClippingRegion={xNull} Element={xNull} TimeoutMS={xNull} InformativeScreenshot=f0ae1bf47868286f5936978018d3961a Selector=&lt;ctrl role='text' &gt; WaitForReady=INTERACTIVE 
+                    uiGetValue.Target
+                    uiGetValue.Value
+                      OutArgument xTypeArguments=uiGenericValue[bill]OutArgument
+                    uiGetValue.Value
+                  uiGetValue
+                ActivityAction
+              uiAnchorBase.Action
+              uiAnchorBase.AnchorProvider
+                uiWaitUiElementAppear FoundElement={xNull} sapVirtualizedContainerService.HintSize=334,106 sap2010WorkflowViewState.IdRef=WaitUiElementAppear_3 WaitActive=False WaitVisible=False
+                  uiWaitUiElementAppear.Target
+                    uiTarget ClippingRegion={xNull} Element={xNull} TimeoutMS={xNull} InformativeScreenshot=5108d557e0cd2dc748f1097afc5db86f Selector=&lt;wnd cls='AVL_AVView' title='AVPageView' &gt;&lt;ctrl name='BILL TO' role='text' &gt; WaitForReady=INTERACTIVE 
+                  uiWaitUiElementAppear.Target
+                uiWaitUiElementAppear
+              uiAnchorBase.AnchorProvider
+            uiAnchorBase
+            uiMessageBox Caption={xNull} ChosenButton={xNull} Buttons=Ok sapVirtualizedContainerService.HintSize=766,59 sap2010WorkflowViewState.IdRef=MessageBox_3 Text=[bill] TopMost=True 
+          Sequence
+        ActivityAction
+      uiWindowScope.Body
+    uiWindowScope
+  Sequence
+Activity
